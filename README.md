@@ -1,8 +1,7 @@
-# Welcome to app-template 👋
-[![Version](https://img.shields.io/npm/v/app-template.svg)](https://www.npmjs.com/package/app-template)
+# Welcome to klassement-app 👋
 [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](#)
 
-> Basic Express app template.
+> A lightweight app to show division rankings.
 
 ## Install
 
@@ -15,6 +14,7 @@ Configure the application using environment variables.
  - Environment: ```ENV``` (default ```DEV```)
  - Enable cookies: ```USE_SESSION``` (default ```false```)
  - Session secret: ```SESSION_SECRET``` (default ```S3CrEtSesSiOn```)
+ - Database: ```DATABASE_NAME``` (default ```app_db```)
 
 ## Usage
 
