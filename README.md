@@ -15,6 +15,7 @@ Configure the application using environment variables.
  - Environment: ```ENV``` (default ```DEV```)
  - Enable cookies: ```USE_SESSION``` (default ```false```)
  - Session secret: ```SESSION_SECRET``` (default ```S3CrEtSesSiOn```)
+ - Database: ```DATABASE_NAME``` (default ```app_db```)
 
 ## Usage
 
