@@ -13,9 +13,20 @@ npm install
 ## Configuration
 Configure the application using environment variables.
  - Environment: ```ENV``` (default ```DEV```)
+ 
+### Authentication
  - Enable cookies: ```USE_SESSION``` (default ```false```)
+
+*Cookies are required if using sign on.*
  - Session secret: ```SESSION_SECRET``` (default ```S3CrEtSesSiOn```)
- - Database: ```DATABASE_NAME``` (default ```app_db```)
+
+### Database
+ - Database name: ```DATABASE_NAME``` (default ```app_db```)
+ - Database host: ```DATABASE_HOST``` (default ```localhost```)
+ - Database port: ```DATABASE_PORT``` (default ```5432```)
+ - Database user: ```DATABASE_USER``` (default ```postgres```)
+ - Database password: ```DATABASE_PASSWORD``` (default ```Test123!```)
+
 
 ## Usage
 
